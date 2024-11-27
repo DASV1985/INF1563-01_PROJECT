@@ -30,9 +30,8 @@ if exchange_rate:
 else:
     print("data not found")
 
-print(f"The current exchange rate for {sec_currency} is {exchange}")
+print(f"The current exchange rate for {base_currency} to {sec_currency} is {exchange}")
 
 exchanged_amount = amount * exchange
 
-print(f"The amount you'll receive of {sec_currency} is {exchanged_amount}")
-print(f"from {amount} {base_currency}")
+print(f"From {amount} {base_currency} you'll receive {exchanged_amount} {sec_currency}")
